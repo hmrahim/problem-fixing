@@ -1,4 +1,4 @@
-// challange number 1
+// challange number 1 leap year
 
 function checkLeapYear(year) {
     let sum1 = year % 4
@@ -18,7 +18,7 @@ const leapYear = checkLeapYear(year)
 //console.log("is leap Year " + leapYear);
 
 
-// challenge number 2
+// challenge number 2 oddEven
 
 function oddEven(age) {
     let odd = age % 2
@@ -73,7 +73,7 @@ function fahrToCel(fahr) {
 
 let fahrn = 0
 let celcius = fahrToCel(fahrn)
-console.log(celcius)
+//console.log(celcius)
 
 // celcius to kelbin
 
@@ -84,7 +84,7 @@ function celToKelbin(cel) {
 }
 
 let kelbin = celToKelbin(2)
-console.log(kelbin, "k");
+//console.log(kelbin, "k");
 
 // kelbin to clecius 
 function kelTocel(kel) {
@@ -93,4 +93,29 @@ function kelTocel(kel) {
     
 }
 let cell = kelTocel(2)
-console.log(cell,"c");
+//console.log(cell, "c");
+
+// Gpa greading system
+
+function gpa(number) {
+    if (number >= 80) {
+        return "GPA: 5.0 A+"
+    } else if (number >= 70) {
+        return "GPA: 4.0 A"
+    } else if (number >= 60) {
+        return "GPA: 3.50 A-"
+    } else if (number >= 50) {
+        return "GPA: 3.0 B"
+    }else if (number >= 40) {
+        return "GPA: 2.0 C"
+    }else if (number >= 33) {
+        return "GPA: 1.0 D"
+    }else if (number < 33) {
+        return "GPA: 00 F"
+    }
+    
+}
+
+let number = 32
+let result = gpa(number)
+console.log(result);

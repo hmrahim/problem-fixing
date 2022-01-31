@@ -39,7 +39,7 @@ let smallResult = small(500, 600, 400)
 
 
 
- find largest numbers from an array
+//  find largest numbers from an array
 
 
 function largeNumber(number) {

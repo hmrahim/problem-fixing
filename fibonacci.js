@@ -19,7 +19,7 @@ const result = fibonacchi(input)
 // solution cube power
 
 function cube(value) {
-    let cubeValue = 1 
+    let cubeValue = 0 
     for (let i = 1; i <= value; i++){
 
         cubeValue = cubeValue + Math.pow(i, 3)
@@ -31,4 +31,4 @@ function cube(value) {
 
 let input = 12
 let result = cube(input)
-console.log(result);
+//console.log(result);
